@@ -1,8 +1,0 @@
-a = 1
-b = 5.0
-lt(a, b): True
-le(a, b): True
-eq(a, b): False
-ne(a, b): True
-ge(a, b): False
-gt(a, b): False
