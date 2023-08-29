@@ -1,0 +1,26 @@
+z = [1, 3, 2, 4, 'Alice', 'Bob']  # Mixed data types in the list
+
+# Sorting only works with comparable data types, so we can't sort this list directly
+
+print("Hello there!\nHow are you?\nI'm doing fine.")
+
+multi_line = """Hello there!
+How are you?
+I'm fine."""
+print(multi_line)
+
+spam = ' Hello World '
+print(spam.strip())
+print(spam.lstrip())
+print(spam.rstrip())
+
+print(', '.join(['cats', 'rats', 'bats']))
+print(' '.join(['My', 'name', 'is', 'Simon']))
+
+# Corrected the join and split usage
+print(' '.join(['My', 'name', 'is', 'Simon']))  # Join with space separator
+print('ABC'.join(['My', 'name', 'is', 'Simon']))  # Join with ABC separator
+
+print('My name is Simon'.split())  # Split using spaces
+print('MyABCnameABCisABCSimon'.split('ABC'))  # Split using 'ABC' separator
+print('My name is Simon'.split(' '))  # Split using space separator
